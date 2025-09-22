@@ -5,9 +5,9 @@ from PIL import Image
 from sahi import AutoDetectionModel
 from sahi.predict import get_sliced_prediction
 
-model = r"D:\small object detection\runs\training\250711_yolov8-p2_aihub\best.pt"
-video_path = r"D:\small object detection\test_video\DJI_0804_0001_30m_1.mp4"
-result_path = r"D:\small object detection\test_video\frames"
+model = r"D:\small object detection\250711_yolov8-p2_aihub\best.pt" #사용할 모델
+video_path = r"D:\small object detection\test_video\DJI_0804_0001_30m_1.mp4" #사용할 영상
+result_path = r"D:\small object detection\test_video\frames" #저장 위치
 
 
 # 모델 로딩
