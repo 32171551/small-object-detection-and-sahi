@@ -2,7 +2,7 @@ import os, json
 from sahi import AutoDetectionModel
 from sahi.predict import predict
 
-model = r"D:\small_object_detection\runs\training\MOT 데이터 학습\250825_yolov11-p2-SeaSee-x\weights\best.pt"
+model = r"D:\small_object_detection\250825_yolov11-p2-SeaSee-x\weights\best.pt"
 image_dir = r"D:\small_object_detection\MOT_sample_image" #추론에 사용할 폴더 이름
 result_dir = r"D:\small_object_detection\runs\sahi-predict\MOT 데이터 추론" #결과 저장 위치
 
